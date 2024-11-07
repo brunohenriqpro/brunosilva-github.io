@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Bruno Henrique Silveira Silva</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção de Capa -->
+    <header id="about" class="header">
+        <div class="profile">
+            <img src="Imagens/bruno.jpg" alt="Foto de Perfil" class="profile-img">
+            <h1>Bruno Henrique Silveira Silva</h1>
+            <p>Intern - Enginner and Operations</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/bruno-henrique-silveira-silva-/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/brunohenriqpro" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="mailto:brunohsilveira2003@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <!-- Seção de Objetivo Profissional -->
+    <section id="objective">
+        <h2>Objetivo Profissional</h2>
+        <br>
+        <p>Meu objetivo profissional na área de cibersegurança é atuar na proteção de sistemas, redes e dados contra ameaças digitais, utilizando uma abordagem proativa e estratégica para identificar vulnerabilidades e implementar soluções robustas de segurança. Busco constantemente aprimorar meus conhecimentos e habilidades para acompanhar a evolução das ameaças cibernéticas e garantir a integridade, confidencialidade e disponibilidade das informações. Pretendo contribuir para a criação de um ambiente digital seguro, ajudando empresas e indivíduos a protegerem seus ativos mais valiosos contra ataques e violações, ao mesmo tempo que promovo a cultura de segurança cibernética em todas as esferas da organização.</p>
+    </section>
+
+    <!-- Seção de Habilidades -->
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <Br>
+                <p>Tenho experiência em HTML5, CSS3 e SASS, além de conhecimentos em pré-processadores para otimizar o desenvolvimento de interfaces web. Utilizo essas tecnologias para criar layouts responsivos e funcionais, que se adaptam a diferentes dispositivos e resoluções de tela. Com o uso de SASS, consigo organizar melhor o código CSS, tornando-o mais modular e eficiente. Sou capaz de implementar boas práticas de design e acessibilidade, garantindo uma experiência de usuário fluida e visualmente agradável.</p>
+            </div>
+            <div class="skill">
+                <h3>Redes de Computadores</h3>
+                <br>
+                <p>Tenho habilidades em redes de computadores, com experiência na configuração de roteadores Cisco, Huawei e HP. Também sou especializado na identificação de problemas de rede e na execução de reparos, garantindo a estabilidade e o bom funcionamento da infraestrutura de comunicação.</p>
+            </div>
+            <div class="skill">
+                <h3>Conhecimentos adicionais</h3>
+                <Br>
+                <p>Tenho conhecimento avançado em Windows, incluindo suas configurações e administração, bem como experiência com o pacote Microsoft Office (Word, Excel, PowerPoint, Outlook). Utilizo essas ferramentas para otimizar tarefas, criar documentos, planilhas e apresentações, além de gerenciar e-mails e calendários de forma eficiente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="project" onclick="showProjectDetails('project1')">
+            <h3>Transformation</h3>
+            <br>
+            <p>
+                Realizamos a migração de unidades lotéricas para uma nova rede, substituindo a infraestrutura antiga por uma mais moderna e eficiente, garantindo maior segurança, desempenho e estabilidade nos serviços prestados.</p>
+        </div>
+        <div class="project" onclick="showProjectDetails('project2')">
+            <h3>Operations - Service Delivery</h3>
+            <p>Executamos a manutenção de problemas tanto nas infraestruturas já migradas para a nova rede quanto nas que ainda estão na rede antiga, garantindo a continuidade e o bom funcionamento dos serviços.</p>
+        </div>
+
+        <!-- Detalhes dos Projetos -->
+        <div id="project1" class="project-details">
+            <h3>Detalhes do Projeto: Transformation</h3>
+            <br>
+            <p>Participei de um projeto de migração de rede em unidades lotéricas da Caixa Econômica, onde realizamos a transição da infraestrutura de rede antiga para uma nova, mais moderna e segura. O projeto envolveu a reconfiguração de roteadores, switches e outros equipamentos de rede, garantindo a continuidade dos serviços e a minimização de interrupções. Além disso, realizamos testes de conectividade e suporte técnico para assegurar que as unidades funcionassem plenamente na nova rede, com maior desempenho e estabilidade.</p>
+        </div>
+        <div id="project2" class="project-details">
+            <h3>Operations - Service Delivery</h3>
+            <br>
+            <p>Como profissional responsável pela manutenção de infraestruturas de rede, tanto nas unidades já migradas para a nova rede quanto nas que ainda estão na rede antiga, meu papel é garantir a continuidade operacional dos serviços. Atuo na identificação e resolução de problemas de conectividade, desempenho e segurança, assegurando que a rede funcione de forma eficiente e sem interrupções. Realizo análises e monitoramento constantes para detectar possíveis falhas ou vulnerabilidades, aplicando soluções rápidas e eficazes. Também contribuo para a otimização da infraestrutura, garantindo uma transição suave para a nova rede e a estabilidade das unidades que permanecem na rede antiga até sua migração.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato comigo por e-mail ou me adicionar no LinkedIn.</p>
+        <button id="downloadCV" onclick="downloadCV()">Baixar Currículo</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
